@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <style>
+      .form{
+        float: right;
+
+      }
+      .hd{
+        float: left;
+        position: relative;
+      }
+      .main-container::after{
+        content: "";
+        clear: both;
+        display: block;
+      }
+      .hd::after{
+        content: "";
+        width: 20px;
+        height: 2px;
+        background-color: yellowgreen;
+        display: block;
+        position: absolute;
+        left: 50%;
+        transition: 0.5s linear;
+      }
+      .hd:hover::after{
+        width: 100%;
+        left: 0;
+      }
+    
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="main-container">
+        <h1 class="hd">Facebook</h1>
+
+        <form action="" class="form">
+          <label for="">Email or Phone</label>
+          <input type="text" />
+          <label for="">Password</label>
+          <input type="password" />
+          <input type="button" value="Log In" />
+          <a href="#">Forgot account?</a>
+        </form>
+      </div>
+    </header>
+
+    <section>
+      <div>Connect with friends and the world around you on Facebook.</div>
+
+      <div>
+        <i class="fa-brands fa-codepen"></i>
+        <span
+          >See Photos and updates <span>from friends in News Feed.</span></span
+        >
+      </div>
+
+      <div>
+        <i class="fa-brands fa-slack"></i>
+        <span>Share what's new<span>in your life on your Timeline.</span></span>
+      </div>
+      <div>
+        <i class="fa-brands fa-twitch"></i>
+
+        <span
+          >Find more
+          <span>of what you're looking for with Facebook Search.</span></span
+        >
+      </div>
+    </section>
+
+    <aside>
+      <div>Sign Up</div>
+      <div>It's free and always will be.</div>
+      <form action="">
+        <input type="text" placeholder="First name" />
+        <input type="text" placeholder="Last name" />
+        <input type="text" placeholder="Mobile number or email" />
+        <input type="text" placeholder="New Password" />
+        <div>Birthday</div>
+        <input type="date" name="" id="" />
+
+        <!-- <select name="" id="">
+                <option value="">Jan</option>
+                <option value="">Feb</option>
+                <option value="">March</option>
+                <option value="">Apr</option>
+                <option value="">May</option>
+                <option value="">Jun</option>
+                <option value="">July</option>
+                <option value="">Aug</option>
+                <option value="">Sep</option>
+                <option value="">Oct</option>
+                <option value="">Nov</option>
+                <option value="">Dec</option>
+            </select> -->
+
+        <a href="#">Why do I need to provide my birthday?</a>
+
+        <input type="radio" name="gender" />
+        <label for="">Female</label>
+        <input type="radio" name="gender" />
+        <label for="">Male</label>
+      </form>
+
+      <div>
+        By clicking Sign Up, you agree to our <a href="#">Terms</a>,
+        <a href="#">Data Policy</a> and <a href="#">Cookie Policy</a>. You may
+        receive SMS notifications from us and can opt out at any time..
+      </div>
+
+      <button>Create Account</button>
+
+      <hr>
+      
+      <div>Create a Page for a celebrity, band or business.</div>
+
+    </aside>
+
+
+
+    <span></span>
+    <span>OR</span>
+    <span></span>
+  </body>
+</html>
